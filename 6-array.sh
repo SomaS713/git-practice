@@ -5,8 +5,8 @@
 
 FRUITS=("APPLE" "BANANA" "ORANGE") #array=list of names
 
-echo "first fruit is $(FRUITS[0])"
-echo "second fruit is $(FRUITS[1])"
-echo "third fruit is $(FRUITS[1])"
+echo "first fruit is $FRUITS[0]"
+echo "second fruit is $FRUITS[1]"
+echo "third fruit is $FRUITS[2]"
 
-echo "here is my all fruits:: $(FRUITS[@])"
+echo "here is my all fruits:: $FRUITS[@]"
